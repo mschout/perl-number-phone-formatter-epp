@@ -1,5 +1,5 @@
 package Number::Phone::Formatter::EPP;
-$Number::Phone::Formatter::EPP::VERSION = '0.02';
+$Number::Phone::Formatter::EPP::VERSION = '0.03';
 # ABSTRACT: An EPP formatter for Number::Phone
 
 
@@ -26,7 +26,7 @@ Number::Phone::Formatter::EPP - An EPP formatter for Number::Phone
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

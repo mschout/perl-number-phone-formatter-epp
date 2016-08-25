@@ -15,15 +15,17 @@ my %WriteMakefileArgs = (
   "DISTNAME" => "Number-Phone-Formatter-EPP",
   "LICENSE" => "perl",
   "NAME" => "Number::Phone::Formatter::EPP",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Number::Phone" => "3.1"
+  },
   "TEST_REQUIRES" => {
-    "Number::Phone" => 0,
+    "Number::Phone" => "3.1",
     "Socket" => 0,
     "Test::More" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -31,7 +33,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Number::Phone" => 0,
+  "Number::Phone" => "3.1",
   "Socket" => 0,
   "Test::More" => 0,
   "strict" => 0,
