@@ -1,6 +1,9 @@
 package Number::Phone::Formatter::EPP;
-$Number::Phone::Formatter::EPP::VERSION = '0.03';
+$Number::Phone::Formatter::EPP::VERSION = '0.04';
 # ABSTRACT: An EPP formatter for Number::Phone
+
+use strict;
+use warnings;
 
 
 sub format {
@@ -26,7 +29,7 @@ Number::Phone::Formatter::EPP - An EPP formatter for Number::Phone
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
@@ -49,7 +52,7 @@ RFC 5753
 
 =head1 SOURCE
 
-The development version is on github at L<http://github.com/mschout/perl-number-phone-formatter-epp>
+The development version is on github at L<https://github.com/mschout/perl-number-phone-formatter-epp>
 and may be cloned from L<git://github.com/mschout/perl-number-phone-formatter-epp.git>
 
 =head1 BUGS
