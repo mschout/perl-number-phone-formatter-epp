@@ -2,6 +2,9 @@ package Number::Phone::Formatter::EPP;
 
 # ABSTRACT: An EPP formatter for Number::Phone
 
+use strict;
+use warnings;
+
 =method format
 
 This is the only method.  It takes an E.123 international format string as its
