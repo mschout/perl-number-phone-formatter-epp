@@ -1,6 +1,7 @@
 Revision history for Number-Phone-Formatter-EPP
 
 {{$NEXT}}
+    - POD Fix: wrong RFC was referenced in docs
 
 0.04  2017-08-02
     - Kwalitee: turn on strict + warnings
