@@ -1,5 +1,5 @@
 package Number::Phone::Formatter::EPP;
-$Number::Phone::Formatter::EPP::VERSION = '0.04';
+$Number::Phone::Formatter::EPP::VERSION = '0.05';
 # ABSTRACT: An EPP formatter for Number::Phone
 
 use strict;
@@ -29,7 +29,7 @@ Number::Phone::Formatter::EPP - An EPP formatter for Number::Phone
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 DESCRIPTION
 
@@ -41,14 +41,14 @@ L<Number::Phone>) as an EPP phone number.
 =head2 format
 
 This is the only method.  It takes an E.123 international format string as its
-only argument and reformats it in EPP (RFC 5753) format.  For example:
+only argument and reformats it in EPP (RFC 5733) format.  For example:
 
  +44 20 8771 2924 -> +44.2087712924
  +1 212 334 0611  -> +1.2123340611
 
 =head1 SEE ALSO
 
-RFC 5753
+RFC 5733
 
 =head1 SOURCE
 
