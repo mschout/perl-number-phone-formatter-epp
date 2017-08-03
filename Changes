@@ -1,5 +1,8 @@
 Revision history for Number-Phone-Formatter-EPP
 
+0.06  2017-08-03
+    - add links to RFCs and ITU standards in POD docs (Thanks Mohammad S Anwar)
+
 0.05  2017-08-03
     - POD Fix: wrong RFC was referenced in docs
 

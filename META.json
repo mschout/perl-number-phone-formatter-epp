@@ -59,7 +59,7 @@
          "web" : "https://github.com/mschout/perl-number-phone-formatter-epp"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0217"
 }
 
