@@ -1,3 +1,4 @@
+# COPYRIGHT
 package Number::Phone::Formatter::EPP;
 
 # ABSTRACT: An EPP formatter for Number::Phone
