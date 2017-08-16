@@ -5,9 +5,12 @@ use strict;
 use warnings;
 use Test::More;
 
-my $class = 'Number::Phone::Formatter::EPP';
-
-use_ok $class;
+unless (eval { require Number::Phone; 1 }) {
+    plan skip_all => 'Number::Phone is not installed';
+}
+elsif ($Number::Phone::VERSION < 3.1) {
+    plan skip_all => 'Number::Phone v3.1 or later is required';
+}
 
 my %tests = (
     '+44 20 8771 2924' => '+44.2087712924',   # UK
@@ -16,7 +19,8 @@ my %tests = (
 );
 
 while (my ($num, $expect) = each %tests) {
-    is $class->format($num), $expect;
+    my $number = Number::Phone->new($num);
+    is $number->format_using('EPP'), $expect;
 }
 
 done_testing;
